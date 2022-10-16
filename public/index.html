@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+   <head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Nebula Support Forum</title>
+      <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="popupS.css">
+   </head>
+   <body>
+      <div id="main">
+      
+      
+         <h1>Nebula Support Form</h1>
+        
+
+     
+        <div class="disclaimer">By using the Nebula Support Form, you agree not to post inappropriate or useless information.</div>
+         <form action="/data" method="POST">
+            <input type="text" placeholder="Enter discord username and tag" name="username" id="user" required>
+            <p>Is your issue proxy related?</p>
+              <input type="radio" id="yesprxy" name="isproxy" value="true">
+              <label for="html">Yes</label><br>
+              <input type="radio" id="noprxy" name="isproxy" value="false">
+              <label for="css">‎No</label><br>
+           <!---->
+             <p>Have you tried to ask the nebula discord community about your issue?</p>
+              <input type="radio" id="yesprxy" name="communitycheck" value="true">
+              <label for="html">Yes</label><br>
+              <input type="radio" id="noprxy" name="communitycheck" value="false">
+              <label for="css">‎No</label><br>
+           <!---->
+             <p>Have you tried using google to solve your issue?</p>
+              <input type="radio" id="yesprxy" name="usedgoogle" value="true">
+              <label for="html">Yes</label><br>
+              <input type="radio" id="noprxy" name="usedgoogle" value="false">
+              <label for="css">‎No</label><br>
+            <textarea cols="32" rows="4" type="text" placeholder="What is your issue?" name="issue" id="issue" required></textarea>
+           <br>
+            <button id="submit" type="submit">Submit</button>
+         </form>
+        
+      </div>
+
+   </body>
+</html>
